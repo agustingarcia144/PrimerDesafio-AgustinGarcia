@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrimerDesafio
-{
-    public class Venta
+public class Venta
     {
         private int _id;
         private String _comentarios;
@@ -16,4 +14,3 @@ namespace PrimerDesafio
         public string Comentarios { get; set; }
         public int IdUsuario { get; set; }
     }
-}
